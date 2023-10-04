@@ -1,0 +1,20 @@
+/* parent of img */
+.java {
+    min-height: 400px !important;
+}
+
+/* for img */
+.anime {
+    object-fit: cover !important;
+}
+
+/* section on img */
+.aks {
+    width: 200px !important;
+    height: 200px !important;
+}
+
+/* text in section in img */
+.dana{
+    background-color: #B0578D;
+}
