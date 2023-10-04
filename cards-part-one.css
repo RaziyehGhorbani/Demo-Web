@@ -1,0 +1,14 @@
+.btn{
+    color: black !important;
+}
+
+.btn:hover{
+    transition-property: all !important;
+    background-color: #F2BED1 !important;
+    color: black !important;
+}
+
+.alibaba{
+    background-color: #F2BED1 !important;
+}
+ 
