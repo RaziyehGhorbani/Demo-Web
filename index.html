@@ -1,40 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./header.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- this link for icon (heart) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <link rel="stylesheet" href="./header.css">
+  <link rel="stylesheet" href="./cards-part-two.css">
 </head>
+
 <body>
-     <!-- navbar start -->
-     <header>
-        <nav class="navbar navbar-expand-lg sticky-top px-4 px-lg-5" id="bg-smoke">
-            <a class="navbar-brand d-flex align-items-center" href="#">
-              <h1 class="m-0" id="first-heading">
-                <img class="img-fluid me-3" src="./Untitled.png" alt="" id="logo">samorana 
-              </h1>
-            </a>
-            <button type="button" class="navbar-toggler">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse">
-              <div class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0" id="items">
-                <a class="nav-item nav-link active px-3 text-dark" href="./home.html">Home</a>
-                <a class="nav-item nav-link px-3" href="./about.html">About Us</a>
-                <a class="nav-item nav-link px-3" href="./services.html">Products</a>
-                  <a class="nav-item nav-link px-3" href="./associate.html">Associate</a>  
-                  <!-- add dropdown if there was any time left -->
-                <a class="nav-item nav-link" href="./contact.html">Contact Us</a>
+
+  <!-- navbar start -->
+  <header>
+    <nav class="navbar navbar-expand-lg sticky-top px-4 px-lg-5" id="bg-smoke">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <h1 class="m-0" id="first-heading">
+          <img class="img-fluid me-3" src="./Untitled.png" alt="" id="logo">samorana
+        </h1>
+      </a>
+      <button type="button" class="navbar-toggler">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <div class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0" id="items">
+          <a class="nav-item nav-link active px-3 text-dark" href="./home.html">Home</a>
+          <a class="nav-item nav-link px-3" href="./about.html">About Us</a>
+          <a class="nav-item nav-link px-3" href="./services.html">Products</a>
+          <a class="nav-item nav-link px-3" href="./associate.html">Associate</a>
+          <!-- add dropdown if there was any time left -->
+          <a class="nav-item nav-link" href="./contact.html">Contact Us</a>
+        </div>
+      </div>
+      <a href="" class="btn px-3 d-none d-lg-block" id="sign-in">SingIn</a>
+    </nav>
+  </header>
+  <!-- navbar end -->
+
+
+
+  <!-- text over card -->
+  <div class="container-xxl py-5 ">
+    <div class="container">
+
+      <div class="d-flex row justify-content-center">
+        <div class="d-flex justify-content-center m-5">
+          <div class="text-center">
+            <h1 class="">Lorem ipsum dolor sit amet.</h1>
+          </div>
+        </div>
+
+
+
+        <!-- cards -->
+
+        <div class=" d-flex row justify-content-center">
+          <div class="d-flex flex-wrap row justify-content-center">
+
+            <!-- card number one -->
+            <div class="col-sm-12 col-md-6 col-lg-3 gy-3 ">
+              <div class="d-flex justify-content-center">
+                <div class="big-bax">
+                  <div class="card team-item rounded shadow">
+
+                    <div id="zxx">
+                      <img
+                        src="https://artdeco.com/cdn/shop/files/1000x1000_Header-Image-MoFa-23_MOBIL.jpg?v=1692797061&width=500"
+                        class="card-img-top img-fluid rounded-top" id="zx" alt="...">
+                    </div>
+
+                    <div class="card-body text-center p-4">
+                      <h5 class="card-title">Lorem, ipsum.</h5>
+
+                      <p class="card-text">Lorem</p>
+
+                    </div>
+
+                    <div class="card-plus card-body text-center p-4 bg-white">
+                      <h5 class="card-title">Lorem, ipsum.</h5>
+
+                      <p class="card-text">Lorem</p>
+
+                      <div class="d-flex justify-content-center align-items-baseline">
+                        <a href="#"><i
+                            class="fa-regular fa-heart  btn btn-square btn-light mx-1 text-primary py-2"></i></a>
+
+                        <a href="#"><i class="bi bi-cart4 btn btn-square btn-light mx-1  text-primary"></i></a>
+
+                        <a href="#"><i class="bi bi-share btn btn-square btn-light mx-1  text-primary"></i></a>
+
+                        <a href="#"><i class="bi bi-search btn btn-square btn-light mx-1  text-primary"></i></a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
               </div>
             </div>
-            <a href="" class="btn px-3 d-none d-lg-block" id="sign-in">SingIn</a>
-          </nav>
-    </header>
-    <!-- navbar end -->
-    
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+            <!-- card number two -->
+            <div class="col-sm-12 col-md-6 col-lg-3 gy-3 ">
+              <div class="d-flex justify-content-center">
+                <div class="big-bax">
+                  <div class="card team-item rounded  shadow">
+
+                    <div id="zxx">
+                      <img
+                        src="https://artdeco.com/cdn/shop/files/1000x1000_Header-Image-MoFa-23_MOBIL.jpg?v=1692797061&width=500"
+                        class="card-img-top img-fluid rounded-top" id="zx" alt="...">
+                    </div>
+
+                    <div class="card-body text-center p-4">
+                      <h5 class="card-title">Lorem, ipsum.</h5>
+
+                      <p class="card-text">Lorem</p>
+
+                    </div>
+
+                    <div class="card-plus card-body text-center p-4 bg-white">
+                      <h5 class="card-title">Lorem, ipsum.</h5>
+
+                      <p class="card-text">Lorem</p>
+
+                      <div class="d-flex justify-content-center align-items-baseline">
+                        <a href="#"><i
+                            class="fa-regular fa-heart  btn btn-square btn-light mx-1 text-primary py-2"></i></a>
+
+                        <a href="#"><i class="bi bi-cart4 btn btn-square btn-light mx-1  text-primary"></i></a>
+
+                        <a href="#"><i class="bi bi-share btn btn-square btn-light mx-1  text-primary"></i></a>
+
+                        <a href="#"><i class="bi bi-search btn btn-square btn-light mx-1  text-primary"></i></a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card number three -->
+            <div class="col-sm-12 col-md-6 col-lg-3 gy-3 ">
+              <div class="d-flex justify-content-center">
+                <div class="big-bax">
+                  <div class="card team-item rounded  shadow">
+
+                    <div id="zxx">
+                      <img
+                        src="https://artdeco.com/cdn/shop/files/1000x1000_Header-Image-MoFa-23_MOBIL.jpg?v=1692797061&width=500"
+                        class="card-img-top img-fluid rounded-top" id="zx" alt="...">
+                    </div>
+
+                    <div class="card-body text-center p-4">
+                      <h5 class="card-title">Lorem, ipsum.</h5>
+
+                      <p class="card-text">Lorem</p>
+
+                    </div>
+
+                    <div class="card-plus card-body text-center p-4 bg-white">
+                      <h5 class="card-title">Lorem, ipsum.</h5>
+
+                      <p class="card-text">Lorem</p>
+
+                      <div class="d-flex justify-content-center align-items-baseline">
+                        <a href="#"><i
+                            class="fa-regular fa-heart  btn btn-square btn-light mx-1 text-primary py-2"></i></a>
+
+                        <a href="#"><i class="bi bi-cart4 btn btn-square btn-light mx-1  text-primary"></i></a>
+
+                        <a href="#"><i class="bi bi-share btn btn-square btn-light mx-1  text-primary"></i></a>
+
+                        <a href="#"><i class="bi bi-search btn btn-square btn-light mx-1  text-primary"></i></a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card number four -->
+            <div class="col-sm-12 col-md-6 col-lg-3 gy-3 ">
+              <div class="d-flex justify-content-center">
+                <div class="big-bax">
+                  <div class="card team-item rounded  shadow">
+
+                    <div id="zxx">
+                      <img
+                        src="https://artdeco.com/cdn/shop/files/1000x1000_Header-Image-MoFa-23_MOBIL.jpg?v=1692797061&width=500"
+                        class="card-img-top img-fluid rounded-top" id="zx" alt="...">
+                    </div>
+
+                    <div class="card-body text-center p-4">
+                      <h5 class="card-title">Lorem, ipsum.</h5>
+
+                      <p class="card-text">Lorem</p>
+
+                    </div>
+
+                    <div class="card-plus card-body text-center p-4 bg-white">
+                      <h5 class="card-title">Lorem, ipsum.</h5>
+
+                      <p class="card-text">Lorem</p>
+
+                      <div class="d-flex justify-content-center align-items-baseline">
+                        <a href="#"><i
+                            class="fa-regular fa-heart  btn btn-square btn-light mx-1 text-primary py-2"></i></a>
+
+                        <a href="#"><i class="bi bi-cart4 btn btn-square btn-light mx-1  text-primary"></i></a>
+
+                        <a href="#"><i class="bi bi-share btn btn-square btn-light mx-1  text-primary"></i></a>
+
+                        <a href="#"><i class="bi bi-search btn btn-square btn-light mx-1  text-primary"></i></a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
