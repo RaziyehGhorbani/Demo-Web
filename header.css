@@ -46,11 +46,11 @@
     #sign-in{
         background-color: #f34fa1;
         border: #f34fa1;
+        transition: all .5s;
     }
 
     #sign-in:hover{
-        border-radius: .65rem;
-        background-color: #f77dba;
+        background-color: #ff93c9;
     }
 
 
