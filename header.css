@@ -46,6 +46,7 @@
     #sign-in{
         background-color: #f34fa1;
         border: #f34fa1;
+        transition: all .5s;
     }
 
     #sign-in:hover{
