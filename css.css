@@ -18,7 +18,6 @@
      padding: 2px 3px;
      border: solid 1px ;
      border-radius: 8px;
- 
   }
   .know{
      text-decoration: none;
@@ -27,7 +26,6 @@
      display: inline-block;
     }
     .know:hover{
-       
        transform: scale(1.2) !important;
        transition: 0.4s !important;
     border-radius: 7px;
@@ -38,7 +36,6 @@
    svg{
     color: black;
    }
-   
    ::placeholder {
     color: black !important;
  }
@@ -46,17 +43,15 @@
     color: rgba(241, 129, 121, 0.92) !important;
  }
  .pink{
-   color: black;
-   text-decoration:dashed;
-   
-}
-.pink:hover{
-   color: #d85b89;
-   display: inline-block;
-   transition: o.4s;
-   transform: scale(1.05);
-}
-
+    color: black;
+    text-decoration:dashed;
+ }
+ .pink:hover{
+    color: #d85b89;
+    display: inline-block;
+    transition: o.4s;
+    transform: scale(1.05);
+ }
  .cola{
     width: 64px;
     height: 64px;

@@ -50,8 +50,24 @@
     }
 
     #sign-in:hover{
-        background-color: #ff93c9;
+       
+        background-color: #f77dba;
     }
 
 
-   
+    #bg-bg{
+        background: url(photo_2023-10-06_19-08-54.jpg);
+        background-size: cover;
+    }
+
+    .color-a{
+        color: black;
+    }
+
+    .color-a:hover{
+        color: rgb(248, 46, 130);
+    }
+
+    #colcol{
+        color: rgb(248, 46, 130);
+    }
