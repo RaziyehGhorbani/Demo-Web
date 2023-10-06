@@ -1,6 +1,5 @@
 *{
     font-weight: 600;
-    text-decoration: none;
 }
 
 #bg-smoke{
@@ -34,11 +33,11 @@
     #first-heading{
         font-size: 25px !important;
     }
-
+    
     }
 
 @media screen and (max-width:433px){
-
+    
     #bg-smoke{
         height: 130px !important;
     }
@@ -47,6 +46,7 @@
     #sign-in{
         background-color: #f34fa1;
         border: #f34fa1;
+        transition: all .5s;
     }
 
     #sign-in:hover{
@@ -54,9 +54,6 @@
         background-color: #f77dba;
     }
 
-    li a{
-        text-decoration: none;
-    }
 
     #bg-bg{
         background: url(photo_2023-10-06_19-08-54.jpg);
