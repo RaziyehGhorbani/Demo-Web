@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+ }
+ .if{
+    border: solid white;
+    border-radius: 5px;
+    box-shadow: 5px;
+    background: url(https://png.pngtree.com/background/20210714/original/pngtree-light-pink-solid-color-simple-style-background-picture-image_1204478.jpg);
+ }
+ .mine{
+     width: 45px;
+     height: 45px;
+ }
+  footer{
+     background-color: #F2BED1 !important;
+  }
+  .icongh{
+     padding: 2px 3px;
+     border: solid 1px ;
+     border-radius: 8px;
+
+  }
+  .know{
+     text-decoration: none;
+     color: black;
+     transition-property: all; 
+     display: inline-block;
+    }
+    .know:hover{
+
+       transform: scale(1.2) !important;
+       transition: 0.4s !important;
+    border-radius: 7px;
+  }
+  .khar{
+    color:black;
+  }
+   svg{
+    color: black;
+   }
+
+   ::placeholder {
+    color: black !important;
+ }
+ input[placeholder], [placeholder], *[placeholder] {
+    color: rgba(241, 129, 121, 0.92) !important;
+ }
+
+.pink{
+    color: black;
+    text-decoration:dashed;
+    
+ }
+ .pink:hover{
+    color: #d85b89;
+    display: inline-block;
+    transition: o.4s;
+    transform: scale(1.05);
+ }
+
+ 
+ .cola{
+    width: 64px;
+    height: 64px;
+    border-radius: 5px;
+ }
+ .big{
+    width: 700px;
+    height: 700px;
+    border-radius: 15px;
+ }
+ .posht{
+    background-color: #FDCEDF;
+ }
+ .qaz{
+  outline-color: #ec216b !important;
+  box-shadow: #ec216b  2px 2px 2px !important;
+  border-radius: 10px;
+ }
+ .gav{
+    background-color: #ff82b0 !important;
+ }
+
