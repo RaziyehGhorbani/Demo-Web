@@ -1,3 +1,7 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+
+
 /* parent of img */
 .java {
     min-height: 400px !important;
@@ -22,7 +26,7 @@
 /* background color */
 .rang{
     background-color: #B0578D;
-} 
+}
 
 
 /* <!-- second-section --> */
@@ -30,10 +34,9 @@ h1{
     font-size: 3em;
 }
 
+@media (max-width:540px) {
 
-@media (max-width:540px){
-    
-    .tuos{
+    .tuos {
         flex-direction: column !important;
     }
 }
@@ -41,12 +44,12 @@ h1{
 
 
 /* for container */
- 
+
 @media (max-width:992px){
-    .cont{
+.cont{
         flex-direction: column !important;
     }
-    
+
 }
 
 
@@ -60,4 +63,198 @@ h1{
     position: fixed;
     right: 30px;
     bottom: 30px;
+}
+
+
+/* for butoon in  right section  */
+.indide{
+    background-color: rgba(220, 220, 220, 0.9);
+    border-color: rgba(220, 220, 220, 0.9) !important;
+}
+
+.indide:hover{
+    background-color: #841357;
+    border-color: #841357 !important;
+   
+    .indife{
+        color: white;
+    }
+}
+
+.indife{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #B0578D;
+}
+
+
+
+/* cards part 2  */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+
+/* top text */
+.first-text {
+    max-width: 500px;
+}
+
+/* 
+.card-img {
+   
+} */
+
+
+/* icons in card */
+.card-body i:hover {
+    transition-property: all;
+    background-color: #F2BED1;
+    color: black !important;
+}
+
+/* card-hide */
+.card-plus {
+    bottom: -50px;
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: auto;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+/* for hover in card (card and img) */
+.big-bax:hover {
+    .card-plus {
+        opacity: 1;
+        bottom: 0px;
+    }
+
+    #zx {
+        transform: scale(1.1);
+    }
+}
+
+/* img container */
+#zxx {
+    overflow: hidden;
+    width: auto;
+    height: auto;
+}
+
+/* img */
+#zx {
+    background-position: center;
+    background-size: cover;
+    transition: all .5s;
+}
+
+
+
+
+/*------- fotter -------- */
+* {
+    box-sizing: border-box;
+}
+
+.if {
+    border: solid white;
+    border-radius: 5px;
+    box-shadow: 5px;
+    background: url(https://png.pngtree.com/background/20210714/original/pngtree-light-pink-solid-color-simple-style-background-picture-image_1204478.jpg);
+}
+
+.mine {
+    width: 45px;
+    height: 45px;
+}
+
+footer {
+    background-color: #F2BED1 !important;
+}
+
+.icongh {
+    padding: 2px 3px;
+    border: solid 1px;
+    border-radius: 8px;
+
+}
+
+.know {
+    text-decoration: none;
+    color: black;
+    transition-property: all;
+    display: inline-block;
+}
+
+.know:hover {
+
+    transform: scale(1.2) !important;
+    transition: 0.4s !important;
+    border-radius: 7px;
+}
+
+.khar {
+    color: black;
+}
+
+svg {
+    color: black;
+}
+
+::placeholder {
+    color: black !important;
+}
+
+input[placeholder],
+[placeholder],
+*[placeholder] {
+    color: rgba(241, 129, 121, 0.92) !important;
+}
+
+.pink {
+    color: black;
+    text-decoration: dashed;
+
+}
+
+.pink:hover {
+    color: #d85b89;
+    display: inline-block;
+    transition: o.4s;
+    transform: scale(1.05);
+}
+
+.cola {
+    width: 64px;
+    height: 64px;
+    border-radius: 5px;
+}
+
+.big {
+    width: 700px;
+    height: 700px;
+    border-radius: 15px;
+}
+
+.posht {
+    background-color: #FDCEDF;
+}
+
+.qaz {
+    outline-color: #ec216b !important;
+    box-shadow: #ec216b 2px 2px 2px !important;
+    border-radius: 10px;
+}
+
+.gav {
+    background-color: #ff82b0 !important;
+}
+
+
+
+/* for img in header  */
+
+#bg-bgy{
+    background: url(https://kyliecosmetics.com/cdn/shop/collections/PLP_banner_matte_3336x954_OPT-2.jpg?v=1682453632);
+    background-size: cover;
 }
