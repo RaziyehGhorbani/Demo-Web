@@ -53,3 +53,11 @@ h1{
 .hasani{
     background-color: rgba(220, 220, 220, 0.9);
 }
+
+#gotoup{
+    background-color: #f8377ecc !important;
+    border-color: #F2BED1 !important;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
