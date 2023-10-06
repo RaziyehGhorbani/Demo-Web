@@ -1,0 +1,77 @@
+*{
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#bg-smoke{
+    background-color: #F5F5F5 !important;
+    height: 86px !important;
+}
+
+#logo{
+    width: 150px;
+    height: 60px;
+}
+
+#first-heading{
+    font-weight: 700 !important;
+}
+
+#items{
+    font-size: 18px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1010px){
+
+#first-heading{
+    font-size: 22px !important;
+}
+
+}
+
+@media screen and (min-width: 1010px) and (max-width: 1068px){
+
+    #first-heading{
+        font-size: 25px !important;
+    }
+
+    }
+
+@media screen and (max-width:433px){
+
+    #bg-smoke{
+        height: 130px !important;
+    }
+}
+
+    #sign-in{
+        background-color: #f34fa1;
+        border: #f34fa1;
+    }
+
+    #sign-in:hover{
+        border-radius: .65rem;
+        background-color: #f77dba;
+    }
+
+    li a{
+        text-decoration: none;
+    }
+
+    #bg-bg{
+        background: url(./bella-hadid5.jpg) no-repeat;
+        background-size: cover;
+    
+    }
+
+    .color-a{
+        color: black;
+    }
+
+    .color-a:hover{
+        color: rgb(248, 46, 130);
+    }
+
+    #colcol{
+        color: rgb(248, 46, 130);
+    }
