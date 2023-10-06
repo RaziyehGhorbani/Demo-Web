@@ -45,11 +45,9 @@
  input[placeholder], [placeholder], *[placeholder] {
     color: rgba(241, 129, 121, 0.92) !important;
  }
-
-.pink{
+ .pink{
     color: black;
     text-decoration:dashed;
-    
  }
  .pink:hover{
     color: #d85b89;
@@ -57,8 +55,6 @@
     transition: o.4s;
     transform: scale(1.05);
  }
-
- 
  .cola{
     width: 64px;
     height: 64px;
@@ -80,4 +76,3 @@
  .gav{
     background-color: #ff82b0 !important;
  }
-
