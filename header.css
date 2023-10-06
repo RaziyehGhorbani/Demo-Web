@@ -50,7 +50,6 @@
     }
 
     #sign-in:hover{
-        border-radius: .65rem;
         background-color: #f77dba;
     }
 
@@ -59,8 +58,8 @@
     }
 
     #bg-bg{
-        background: url(5.jpg);
-        background-size: contain;
+        background: url(photo_2023-10-06_19-08-54.jpg);
+        background-size: cover;
     }
 
     .color-a{
