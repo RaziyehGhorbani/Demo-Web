@@ -30,7 +30,7 @@
 
 
 /* <!-- second-section --> */
-h1{
+h1:not(:first-child){
     font-size: 3em;
 }
 
