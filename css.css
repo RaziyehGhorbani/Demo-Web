@@ -46,8 +46,17 @@
     color: rgba(241, 129, 121, 0.92) !important;
  }
  .pink{
-    color: #ef548d;
- }
+   color: black;
+   text-decoration:dashed;
+   
+}
+.pink:hover{
+   color: #d85b89;
+   display: inline-block;
+   transition: o.4s;
+   transform: scale(1.05);
+}
+
  .cola{
     width: 64px;
     height: 64px;
