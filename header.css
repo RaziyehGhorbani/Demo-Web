@@ -50,7 +50,6 @@
     }
 
     #sign-in:hover{
-        border-radius: .65rem;
         background-color: #f77dba;
     }
 
@@ -59,7 +58,7 @@
     }
 
     #bg-bg{
-        background: url(https://kyliecosmetics.com/cdn/shop/files/0920_Concealer_hero-banner_1728x969_kylie-3_d2edf2b7-59f8-421e-8b96-7fe29e571d68.jpg?v=1695722451);
+        background: url(photo_2023-10-06_19-08-54.jpg);
         background-size: cover;
     }
 
