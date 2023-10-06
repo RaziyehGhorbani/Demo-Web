@@ -19,22 +19,20 @@
 }
 
 /* text in section in img */
-.dana {
+.dana{
     background-color: #B0578D;
 }
 
 /* background color */
-.rang {
+.rang{
     background-color: #B0578D;
 }
 
 
 /* <!-- second-section --> */
-h1:not(#first-heading) {
+h1{
     font-size: 3em;
 }
-
-
 
 @media (max-width:540px) {
 
@@ -47,19 +45,19 @@ h1:not(#first-heading) {
 
 /* for container */
 
-@media (max-width:992px) {
-    .cont {
+@media (max-width:992px){
+.cont{
         flex-direction: column !important;
     }
 
 }
 
 
-.hasani {
+.hasani{
     background-color: rgba(220, 220, 220, 0.9);
 }
 
-#gotoup {
+#gotoup{
     background-color: #f8377ecc !important;
     border-color: #F2BED1 !important;
     position: fixed;
