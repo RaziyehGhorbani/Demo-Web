@@ -59,8 +59,9 @@
     }
 
     #bg-bg{
-        background: url(5.jpg);
-        background-size: contain;
+        background: url(./bella-hadid5.jpg) no-repeat;
+        background-size: cover;
+    
     }
 
     .color-a{
